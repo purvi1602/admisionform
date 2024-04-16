@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admission Form</title>
+    <link rel="stylesheet" href="admformstyle.css">
+    <style>
+        table tr td{
+            padding-right: 20dp;
+        }
+    </style>
+</head>
+<body>
+    <header><h1>Student Admission Form</h1></header>
+    <div>
+        <form autocomplete="on">
+            <fieldset>
+                <legend>Student Information</legend>
+                <label for="fname">First Name</label>
+                <input type="" name="fname" id="fname" value="" required><br>
+                <label for="mname">Middle Name</label>
+                        <input type="" name="mname" id="mname" value="" required><br>
+                        <label for="lname">Last Name</label>
+                        <input type="" name="lname" id="lname" value="" required><br>
+                          
+                <br>
+                <label for="DOB">Date of Birth</label>
+                <input type="date" name="DOB" id="DOB">&nbsp;&nbsp;&nbsp;&nbsp;
+                <label for="gender">Gender</label>
+                <select name="gender" id="gender">
+                    <option value=""></option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                </select>
+                <br><br>
+                <label for="course">Courses</label>
+                <select name="course" id="course">
+                    <option value=""></option>
+                    <option value="bba">BBA</option>
+                    <option value="bcom">BCom</option>
+                    <option value="bca">BCA</option>
+                    <option value="bsc">BSC</option>
+                    <option value="bfarm">BFarm</option>
+                </select>
+                <br><br>
+                <fieldset>
+                    <legend>Documents</legend>
+                    <label for="marksheet">12th Marksheet</label>
+                    <input type="file" id="marksheet" name="marksheet" required><br>
+                    <label for="aadhar">Aadhar Card</label>
+                    <input type="file" id="aadhar" name="aadhar" required><br>
+                    <label for="leaving">Leaving Certificate</label>
+                    <input type="file" id="leaving" name="leaving" required><br>
+                </fieldset>
+                <br>
+                <fieldset>
+                    <legend>Contact Information</legend>
+                    <label for="address">Permanent Address</label>
+                    <textarea name="addess" id="address" cols="30" rows="1"></textarea><br>
+                    <label for="presentaddress">Present Address</label>
+                    <textarea name="presentaddress" id="presentaddress" cols="30" rows="1"></textarea><br>
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email">
+                   <!-- <textarea name="email" id="email" cols="30" rows="2"></textarea>-->
+                   <label for="mobile">Mobile No.</label>
+                   <input type="tel" name="mobile" id="mobile">
+                </fieldset>
+                <br>
+                <fieldset>
+                    <legend >Academic Record</legend>
+                    <label for="exampassed">Exam Passed</label>
+                    <input type="text" name="exampassed" id="exampassed" required><br>
+                    <label for="institute">Institute Name</label>
+                    <input type="text" name="institute" id="institute" required><br>
+                    <label for="passing">Passing Year</label>
+                    <input type="text" name="passing" id="passing" required><br>
+                    <label for="grade">Grade</label>
+                    <input type="text" name="grade" id="grade" required>
+                </fieldset>
+                <br>
+                <fieldset>
+                    <legend>Declaration</legend>
+                    <input type="checkbox" required> I hearby, declare that I will obey the rules and regulations and be fullly responsible for violating the rules.
+                </fieldset>
+                <br><br>
+                <label for="signature">Signature:</label>
+            </fieldset>
+            <br>
+            <button type="submit" class="btn-1" id="submit">Submit</button>
+            <button type="reset" class="btn-2" id="reset">Reset</button>
+            <br><br><br>
+            <footer><marquee behavior="" direction="">Note:Last Date of Admission is 15th April. </marquee></footer>
+        </form>
+    </div>
+    
+</body>
+</html>
