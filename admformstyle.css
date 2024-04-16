@@ -1,0 +1,35 @@
+table tr td{
+    padding-right: 20dp;
+}
+header h1{
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-size: 60;
+font-weight: 1000;
+color: teal;
+text-align: center;
+text-shadow: 3px 3px 2px rgb(64, 63, 63);
+}
+form{
+color: rgb(1, 10, 18);
+}
+.btn-1{
+background-color: teal;
+font-size: 20px;
+}
+.btn-1:hover{
+    cursor: pointer;
+    background-color:whitesmoke;
+    color:teal;
+}
+#reset{
+background-color: teal;
+font-size: 20px;
+}
+#reset:hover{
+        cursor:no-drop;
+        background-color:whitesmoke;
+        color:teal;
+}
+body{
+background-color:rgb(200, 217, 217);
+}
